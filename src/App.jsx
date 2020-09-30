@@ -4,7 +4,7 @@ import { CommentForm } from './CommentForm';
 
 const App = () => {
 	return (<div id="app">
-		<CommentForm width={50} height={30}/>
+		<CommentForm width={50} height={30} max={1000}/>
 	</div>);
 }
 
